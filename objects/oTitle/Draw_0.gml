@@ -7,9 +7,9 @@ var cw = camera_get_view_width(view_camera[0]);
 draw_set_font(fTitle);
 draw_set_colour(c_black);
 draw_set_alpha(1);
-draw_text(cx + (cw / 2) - 300, cy + 100, string("What's Up Homie?"));
+draw_text(cx + (cw / 2) + 50, cy + 150, string("What's Up Homie?"));
 
 if (flash % 2 == 0) {
 	draw_set_colour(c_white);
-	draw_text(cx + (cw / 2) - 300, cy + 500, string("Press Start Bitch"));
+	draw_text(cx + (cw / 2) + 50, cy + 700, string("Press Start Bitch"));
 }
