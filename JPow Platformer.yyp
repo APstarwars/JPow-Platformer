@@ -127,6 +127,22 @@
             }
         },
         {
+            "Key": "3a480101-bfb2-44a5-93b9-2ccd6f67cac1",
+            "Value": {
+                "id": "0efa7c1a-8415-4d4c-ba8f-ce03a24a4a71",
+                "resourcePath": "objects\\oDeanintro\\oDeanintro.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "41e7f04c-57ed-4b2f-a48d-61d9cd44e3c9",
+            "Value": {
+                "id": "20f3a226-0603-4ee7-9604-1653c9eb2701",
+                "resourcePath": "scripts\\scThaw\\scThaw.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "49730ae5-ca17-4798-b5a3-d1981a5935ee",
             "Value": {
                 "id": "e933a6d1-ad73-4432-b9bc-6a91ccaf07e6",
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "ca88d20b-eacf-4255-a29e-70b305629273",
+            "Value": {
+                "id": "82df48f1-5976-4488-baff-859267ab1f80",
+                "resourcePath": "scripts\\scFreeze\\scFreeze.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cb4b42b9-e1d2-4a51-8e9c-1bb8b22757ef",
             "Value": {
                 "id": "5d409aaf-f4dc-402a-9e8b-1e349a4e1c62",
@@ -340,6 +364,14 @@
                 "id": "57f819a9-fd0e-4dba-8c22-fe9ea20ec337",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d8f45622-dbd4-4616-b078-ca9a470d75ed",
+            "Value": {
+                "id": "c29ea5fa-06d2-4acb-ad6d-cc5051cf8721",
+                "resourcePath": "sprites\\sTextbox\\sTextbox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -376,7 +408,9 @@
         }
     ],
     "script_order": [
-        "cb4b42b9-e1d2-4a51-8e9c-1bb8b22757ef"
+        "cb4b42b9-e1d2-4a51-8e9c-1bb8b22757ef",
+        "ca88d20b-eacf-4255-a29e-70b305629273",
+        "41e7f04c-57ed-4b2f-a48d-61d9cd44e3c9"
     ],
     "tutorial": ""
 }
