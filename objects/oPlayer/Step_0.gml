@@ -1,3 +1,7 @@
+// Camera Data
+cam_x = camera_get_view_border_x(0);
+cam_y = camera_get_view_border_y(0);
+
 // Get player input
 key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
@@ -69,7 +73,11 @@ y += vsp;
 
 // Interaction with Dean
 if (place_meeting(x,y,oDeanNPC) && key_interact) {
-	instance_create_layer(cam_x,cam_y,"Transition",oDeanintro);
 	scFreeze();
-	// ALWAYS THAW IN TEXT OBJECTS
+	scText("What is up Jenecuh?", 0.5, x+130, y+100);
 }
+// placeholder till I find more energy
+	if (keyboard_check(vk_enter)) {
+		scThaw();
+		instance_destroy(oText);
+	}

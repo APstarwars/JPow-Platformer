@@ -13,7 +13,3 @@ walksp = 4;
 jmphght = 6;
 
 runflag = 0;
-
-// Camera Data
-cam_x = camera_get_view_x(0);
-cam_y = camera_get_view_y(0);

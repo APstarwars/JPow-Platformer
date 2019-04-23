@@ -127,10 +127,18 @@
             }
         },
         {
+            "Key": "33c9ab79-d1c4-47fb-84b7-a46129f5c50a",
+            "Value": {
+                "id": "4e1000b6-898c-45a7-8479-0f3c278f1311",
+                "resourcePath": "fonts\\fText\\fText.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "3a480101-bfb2-44a5-93b9-2ccd6f67cac1",
             "Value": {
                 "id": "0efa7c1a-8415-4d4c-ba8f-ce03a24a4a71",
-                "resourcePath": "objects\\oDeanintro\\oDeanintro.yy",
+                "resourcePath": "objects\\oText\\oText.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -212,6 +220,14 @@
                 "id": "91972f69-7273-4b61-b9e8-0fe9cef5fdd6",
                 "resourcePath": "views\\674ff078-b0cc-4acf-87e6-c411f1e4905d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6880f806-db26-413f-a493-741a1b222868",
+            "Value": {
+                "id": "bc9e97fb-ce68-42c9-8d1b-05a787316fa4",
+                "resourcePath": "scripts\\scText\\scText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -410,7 +426,8 @@
     "script_order": [
         "cb4b42b9-e1d2-4a51-8e9c-1bb8b22757ef",
         "ca88d20b-eacf-4255-a29e-70b305629273",
-        "41e7f04c-57ed-4b2f-a48d-61d9cd44e3c9"
+        "41e7f04c-57ed-4b2f-a48d-61d9cd44e3c9",
+        "6880f806-db26-413f-a493-741a1b222868"
     ],
     "tutorial": ""
 }
