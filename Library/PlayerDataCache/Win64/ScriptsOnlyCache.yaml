@@ -950,4 +950,4 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/hobbe/Desktop/JPow-Platformer.exe
+  playerPath: C:/Users/hobbe/Documents/GitHub/JPow-Platformer/Build/JPow-Platformer.exe
