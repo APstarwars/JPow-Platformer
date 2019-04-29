@@ -6,6 +6,10 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    public CircleCollider2D feet;
+    public EdgeCollider2D McInnesSlope;
+    public PhysicsMaterial2D slippery;
+    public PhysicsMaterial2D sticky;
 
     public float runSpeed = 40f;
 
@@ -15,13 +19,22 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed);
+        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+        }
+
+        if (feet.IsTouching(McInnesSlope))
+        {
+            feet.sharedMaterial = sticky;
+        }
+        else
+        {
+            feet.sharedMaterial = slippery;
         }
     }
 
