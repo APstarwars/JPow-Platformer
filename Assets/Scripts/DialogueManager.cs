@@ -51,7 +51,7 @@ public class DialogueManager : MonoBehaviour
     {
         Debug.Log("End of Conversation");
         speaking = false;
-        dialogueText.enabled = false;
+        textBox.enabled = false;
         nameText.enabled = false;
         dialogueText.enabled = false;
     }

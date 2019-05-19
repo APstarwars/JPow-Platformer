@@ -22,5 +22,18 @@ public class PlayerInteraction : MonoBehaviour
         {
             FindObjectOfType<DialogueManager>().DisplayNextSentence();
         }
+
+        // [dev] switch between fullscreen and windowed
+        if (Input.GetButtonDown("GWSwitch"))
+        {
+            if (Screen.fullScreen)
+            {
+                Screen.fullScreen = false;
+            }
+            else
+            {
+                Screen.fullScreen = true;
+            }
+        }
     }
 }
