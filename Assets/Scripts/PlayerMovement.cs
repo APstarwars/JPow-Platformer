@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController2D controller;
     public Animator animator;
     public CircleCollider2D feet;
-    public EdgeCollider2D McInnesSlope;
+    public PolygonCollider2D McInnesSlope;
     public PhysicsMaterial2D slippery;
     public PhysicsMaterial2D sticky;
 

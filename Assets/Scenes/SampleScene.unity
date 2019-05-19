@@ -693,7 +693,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 0
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -1340,8 +1340,8 @@ Transform:
   m_Father: {fileID: 247491134}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &1909553035
-EdgeCollider2D:
+--- !u!60 &1909553035
+PolygonCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1354,12 +1354,32 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 50, y: 5.46}
+    newSize: {x: 50, y: 5.46875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
   m_Points:
-  - {x: -0.32018888, y: 0.66038847}
-  - {x: -1.5699737, y: 0.65984815}
-  - {x: -1.5701339, y: -0.19737399}
-  - {x: -1.0494938, y: -0.19756913}
-  - {x: -0.27374864, y: -0.60159504}
-  - {x: -0.07259917, y: -0.60231674}
-  - {x: 1.2871819, y: -1.1685724}
+    m_Paths:
+    - - {x: -1.54, y: -1.7199999}
+      - {x: -1.51, y: -1.7099999}
+      - {x: -1.51, y: -1.68}
+      - {x: -1.54, y: -1.67}
+      - {x: -1.56, y: -1.6899999}
+    - - {x: -1.5500982, y: -0.19471037}
+      - {x: -1.5472984, y: 0.65900314}
+      - {x: -0.27758098, y: 0.6604347}
+      - {x: -0.27889013, y: 0.7103313}
+      - {x: -1.8156381, y: 0.69642735}
+      - {x: -1.930407, y: 0.70235753}
+      - {x: -1.9460304, y: 0.20974636}
+      - {x: -1.9618328, y: -0.648739}
+      - {x: -2.0382142, y: -1.1592939}
+      - {x: -1.607363, y: -1.166251}
+      - {x: 1.3616583, y: -1.168819}
+      - {x: 0.017014742, y: -0.6509546}
+      - {x: -1.0618627, y: -0.19591331}
