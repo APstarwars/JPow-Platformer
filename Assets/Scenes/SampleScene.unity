@@ -1287,7 +1287,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: So guys, don't tell Hunter this, but I'm actually an android.
+  m_Text: I really like your box Hunter.
 --- !u!222 &1165333914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1428,7 +1428,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383233596}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3, y: 42, z: -25646.617}
+  m_LocalPosition: {x: 0, y: 250, z: -25646.617}
   m_LocalScale: {x: 338.53534, y: 310.32407, z: 284.9624}
   m_Children: []
   m_Father: {fileID: 1404173683}
@@ -1471,7 +1471,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 7470856cd31d04e47bea08b4c34f6ebd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9372e21961cd47c4ca4c6cc7a704a064, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
