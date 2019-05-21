@@ -1287,7 +1287,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sample Dialogue
+  m_Text: So guys, don't tell Hunter this, but I'm actually an android.
 --- !u!222 &1165333914
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1722,7 +1722,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sample Name
+  m_Text: Hunter and Max's podcast
 --- !u!222 &1717524256
 CanvasRenderer:
   m_ObjectHideFlags: 0
